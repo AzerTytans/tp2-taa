@@ -1,5 +1,5 @@
 /**
- * JBoss, Home of Professional Open Source
+* JBoss, Home of Professional Open Source
  * Copyright Red Hat, Inc., and individual contributors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,7 +28,7 @@ public class TestApplication extends Application {
 
         final Set<Class<?>> clazzes = new HashSet<Class<?>>();
 
-        clazzes.add(StatusEndpoint.class);
+        clazzes.add(StarWars.class);
 
         return clazzes;
     }
