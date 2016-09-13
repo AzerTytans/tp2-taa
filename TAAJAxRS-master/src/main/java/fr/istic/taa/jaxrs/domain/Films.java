@@ -18,6 +18,10 @@ public class Films {
   public String edited;
   public Films url;
   
+  public Films(){
+    super();
+  }
+  
   public Films(String title, int episode_id, String release_date) {
     super();
     this.title = title;

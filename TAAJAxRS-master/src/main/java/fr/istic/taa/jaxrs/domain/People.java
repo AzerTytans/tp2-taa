@@ -20,6 +20,10 @@ public class People {
   public String edited;
   public People url;
   
+  public People(){
+    super();
+  }
+  
   public People(String name, String height, String mass) {
     super();
     this.name = name;

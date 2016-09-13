@@ -19,7 +19,9 @@ public class Planets {
 	private String edited;
 	private String url;
 	
-	
+	public Planets(){
+	  super();
+	}
 	
 	
 	public Planets(String name, int diameter, int population) {

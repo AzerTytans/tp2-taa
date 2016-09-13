@@ -23,7 +23,10 @@ public class Vehicles {
   public Vehicles url;
   public String  name;
   
-
+  public Vehicles(){
+    super();
+  }
+  
   public Vehicles( String name, String model, String cost_in_credits) {
     super();
     this.model = model;

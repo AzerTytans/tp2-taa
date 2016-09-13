@@ -17,6 +17,9 @@ public class Species {
   public String edited;
   public Species url;
   
+  public Species(){
+    super();
+  }
   
   public Species(String name, String classification, String designation) {
     super();

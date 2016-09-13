@@ -3,8 +3,6 @@ package fr.istic.taa.jaxrs.domain;
 import java.util.List;
 
 public class Spaceships {
-
-
   private String name;
   private String model;
   private String manufacturer;
@@ -23,6 +21,11 @@ public class Spaceships {
   private String created;
   private String edited;
   private String url;
+  
+  public Spaceships(){
+    super();
+  }
+  
   public String getName() {
     return name;
   }
